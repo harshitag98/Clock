@@ -12,7 +12,7 @@ h1{
     font-size: 50px;
 }
 
-.date{
+#date{
     /* border: 1px solid black; */
     height: 80px;
     text-align: center;
