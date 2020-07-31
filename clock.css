@@ -1,21 +1,48 @@
 
 .time{
-    /* border: 1px solid black; */
     height: 180px;
     text-align: center;
     font-size: 100px;
     font-family:'Orbitron';
+    color: white;
+}
+.row1{
+    /* border-style: outset; */
+    border-bottom-width: 0px;
+    border-radius: 1cm;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: url(background.jpg) no-repeat center center fixed;
+}
+
+.row2{
+    /* border-style: outset; */
+    border-top-width: 0px;
+    border-radius: 1cm;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: url(background.jpg) no-repeat center center fixed;
 }
 
 h1{
     text-align: center;
     font-size: 50px;
+    color: white;
+
 }
 
 #date{
-    /* border: 1px solid black; */
-    height: 80px;
+    height: 150px;
     text-align: center;
     font-size: 50px;
     font-family: "Allerta Stencil", Sans-serif;
+    color: white;
+
 }
+
+
+body { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+
+  }
