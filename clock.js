@@ -23,11 +23,15 @@ function calculateTime(){
     let type = "";  
     
     // Convert 24-hour clock to AM/PM clock and chosing it according to the time of day
-    if(hours<12){
+    if(hours < 12){
         type = "AM";
     }
     else{
         type = "PM"
+    }
+
+    if(hours == 0){
+        hours = 12;
     }
     
     if(hours > 12){

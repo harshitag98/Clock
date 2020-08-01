@@ -1,48 +1,88 @@
-
 .time{
-    height: 180px;
     text-align: center;
-    font-size: 100px;
     font-family:'Orbitron';
     color: white;
 }
 .row1{
-    /* border-style: outset; */
     border-bottom-width: 0px;
     border-radius: 1cm;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     background: url(background.jpg) no-repeat center center fixed;
 }
-
 .row2{
-    /* border-style: outset; */
     border-top-width: 0px;
     border-radius: 1cm;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     background: url(background.jpg) no-repeat center center fixed;
 }
-
 h1{
     text-align: center;
-    font-size: 50px;
     color: white;
-
 }
-
 #date{
-    height: 150px;
     text-align: center;
-    font-size: 50px;
     font-family: "Allerta Stencil", Sans-serif;
     color: white;
-
 }
-
-
 body { 
     background: url(background.jpg) no-repeat center center fixed; 
     background-size: cover;
-
   }
+
+@media screen and (min-width : 992px){
+    .time{
+        font-size: 100px;
+        height: 180px;
+    }
+    #date{
+        font-size: 50px;
+        height: 150px;
+    }
+    h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width : 991px) and (min-width :768px){
+    .time{
+        font-size: 80px;
+        height: 150px;
+    }
+    #date{
+        font-size: 40px;
+        height: 120px;
+    }
+    h1{
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width : 767px) and (min-width :576px){
+    .time{
+        font-size: 60px;
+        height: 120px;
+    }
+    #date{
+        font-size: 30px;
+        height: 90px;
+    }
+    h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width : 575px){
+    .time{
+        font-size: 50px;
+        height: 90px;
+    }
+    #date{
+        font-size: 25px;
+        height: 80px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
