@@ -1,7 +1,13 @@
 .time{
     text-align: center;
-    font-family:'Orbitron';
+    font-family:'digital7';
     color: white;
+}
+#hrs{
+    padding-left: 80px;
+}
+#time{
+    padding-right: 80px;
 }
 .row1{
     border-bottom-width: 0px;
@@ -21,6 +27,10 @@ h1{
     text-align: center;
     color: white;
 }
+@font-face {
+	font-family: digital7;
+	src: url('digital7.ttf');
+}
 #date{
     text-align: center;
     font-family: "Allerta Stencil", Sans-serif;
@@ -33,7 +43,7 @@ body {
 
 @media screen and (min-width : 992px){
     .time{
-        font-size: 100px;
+        font-size: 120px;
         height: 180px;
     }
     #date{
@@ -47,7 +57,7 @@ body {
 
 @media screen and (max-width : 991px) and (min-width :768px){
     .time{
-        font-size: 80px;
+        font-size: 100px;
         height: 150px;
     }
     #date{
@@ -61,7 +71,7 @@ body {
 
 @media screen and (max-width : 767px) and (min-width :576px){
     .time{
-        font-size: 60px;
+        font-size: 80px;
         height: 120px;
     }
     #date{
@@ -75,7 +85,7 @@ body {
 
 @media screen and (max-width : 575px){
     .time{
-        font-size: 50px;
+        font-size: 70px;
         height: 90px;
     }
     #date{
